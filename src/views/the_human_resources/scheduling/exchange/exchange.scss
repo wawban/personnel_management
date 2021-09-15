@@ -1,0 +1,86 @@
+.exchange{
+    .box{
+        .the_query {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .conditions_form {
+              display: flex;
+              align-items: center;
+              .form_item {
+                > div {
+                  margin: 0;
+                }
+              }
+            }
+          }
+          // 主体
+          .exchange_zt{
+            >div{
+              border: 1px solid #333;
+              margin-bottom: 20px;
+              display: flex;
+              .zt_top{
+                width: 110px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+              .coloer1{
+                background: #eee;
+              }
+              .zt_right{
+                >div{
+                  display: flex;
+                  border: 1px solid;
+                  .texterw{
+                    display: flex;
+                    >div{
+                      margin: 10px 6px;
+                      padding: 4px 6px;
+                      border: 1px solid #409EFF;
+                      background: rgb(240, 247, 255);
+                      cursor: pointer;
+                    }
+                  }
+                  // ----------------------
+                  .tybt{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 0 10px;
+                  }
+                  .biaotidem1{
+                    background: rgb(194, 128, 255);
+                  }
+                  .biaotidem2{
+                   background: rgb(129, 211, 248);
+                  }
+                  .biaotidem3{
+                    background: rgb(202, 249, 130);
+                  }
+                  .biaotidem4{
+                    background: rgb(250, 205, 145);
+                  }
+                }
+                .coloera{
+                  border-color: rgb(194, 128, 255);
+                }
+                .coloerb{
+                  border-color: rgb(129, 211, 248);
+                  margin: 10px 0;
+                }
+                .coloerc{
+                  border-color: rgb(202, 249, 130);
+                  margin-bottom: 10px;
+                }
+                .coloerd{
+                  border-color: rgb(250, 205, 145);
+                }
+              }
+            }
+          }
+    }
+}

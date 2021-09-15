@@ -1,0 +1,121 @@
+.attendance {
+    .box {
+
+      .the_query {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .conditions_form {
+          display: flex;
+          align-items: center;
+          .form_item {
+            > div {
+              margin: 0;
+            }
+          }
+        }
+      }
+      .table_item {
+        margin-top: 20px;
+        .paging {
+          padding-top: 20px;
+          text-align: center;
+        }
+      }
+    //   弹框
+      .add_box{
+          .the_title{
+              font-size: 16px;
+              font-weight: bolder;
+              display: flex;
+              align-items: center;
+              >i{
+                display: inline-block;
+                width: 5px;
+                height: 20px;
+                background: #409EFF;
+                margin-right: 10px;
+              }
+          }
+          .fdsvdscas{
+            margin: 0;
+          }
+          .texgscssc{
+            padding-left: 74px;
+            color: #aaa;
+          }
+          .csaxaxa{
+            margin-top: 20px;
+            display: flex;
+            .yansheqian{
+              color: #aaa;
+            }
+            .feiqiang{
+              color: #409EFF;
+              cursor: pointer;
+              padding: 0 12px;
+            }
+          }
+          .inpu_cross{
+              display: flex;
+              justify-content: space-between;
+              .cascader_on{
+                  position: relative;
+                  >i{
+                      position: absolute;
+                      cursor: pointer;
+                      right: 2px;
+                      top: 0px;
+                      font-size: 22px;
+                      color: #409EFF;
+                  }
+              }
+          }
+          .fleft_cross{
+            justify-content: left;
+            .squ{
+              padding: 8px 0 0 14px;
+            }
+          }
+      }
+    //   人员弹框
+    .cascader_choose{
+        // min-height: 400px;
+        .biaoti{
+          display: flex;
+          background: #ccc;
+          padding: 8px 0 8px 24px;
+          margin-top: 10px;
+          >div{
+            // flex: 1;
+            width: 220px;
+            font-size: 16px;
+            color: #000;
+          }
+        }
+        .xzyuans{
+          height: 420px;
+          overflow:auto;
+        }
+        .dxuan{
+          display: flex;
+          overflow: hidden;
+          >div{
+            width: 220px;
+            margin: 6px 0;
+          }
+        }
+    }
+    // 班次选择
+    .rdudsxvuhgsci{
+      .scsdsxx{
+        display: flex;
+        align-items: center;
+        .btenanniu{
+          margin-left: 20px;
+        }
+      }
+    }
+    }
+  }

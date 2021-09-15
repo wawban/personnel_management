@@ -1,0 +1,20 @@
+.scheduling{
+    .box{
+        .top_biaot{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #eee;
+            padding: 0 20px;
+            >p{
+                font-size: 22px;
+            }
+            .el-radio-group{
+                margin: 0 !important;
+            }
+        }
+        .rqi{
+            padding: 20px;
+        }
+    }
+}

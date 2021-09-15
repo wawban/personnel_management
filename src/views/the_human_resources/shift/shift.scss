@@ -1,0 +1,119 @@
+.shift{
+    .box{
+        .the_query {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .conditions_form {
+              display: flex;
+              align-items: center;
+              .form_item {
+                > div {
+                  margin: 0;
+                }
+              }
+            }
+          }
+          .table_item {
+            margin-top: 20px;
+            .paging {
+              padding-top: 20px;
+              text-align: center;
+            }
+          }
+        //   弹框
+        .add_box{
+            height: 520px;
+            overflow: auto;
+            .inpu_cross{
+                    display: flex;
+            }
+            .xianxka{
+              // display: flex;
+              .xxkli{
+                .dxuank{
+                  display: flex;
+                  align-items: center;
+                  >p{
+                    padding-right: 18px;
+                  }
+                }
+                .sjiaxuanz{
+                  background: #eee;
+                  padding: 20px;
+                  .gzsjian{
+                    border-bottom: 1px solid #333;
+                    padding-bottom: 12px;
+                  }
+                  .itmesjian{
+                    padding-top: 8px;
+                    .nbistide{
+                      display: flex;
+                      align-items: center;
+                      >div{
+                        background: #409EFF;
+                        width: 20px;
+                        height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                      }
+                    }
+                    .gunx{
+                      height: 1px;
+                      background: #333;
+                      margin: 6px 0;
+                    }
+                    .sjianmok{
+                      display: flex;
+                      justify-content: space-between;
+                      .right_sjians{
+                        >div{
+                          margin: 4px 0;
+                          display: flex;
+                          align-items: center;
+                          .leftbti{
+                            width: 100px;
+                            text-align: right;
+                          }
+                          .el-form-item--medium{
+                            margin: 0 10px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .zbinab{
+              .el-collapse-item__header{
+                color: #409EFF !important;
+              }
+              .naijidjsd{
+                margin: 3px 0;
+                display: flex;
+                align-items: center;
+                .el-form-item{
+                  margin: 0;
+                }
+                .cksjchs{
+                  padding-left: 10px;
+                  color: #aaa;
+                }
+                .cvvdcwsc{
+                  display: flex;
+                  align-items: center;
+                  .el-form-item{
+                    margin: 0 4px !important;
+                  }
+                }
+              }
+            }
+        }
+    }
+}

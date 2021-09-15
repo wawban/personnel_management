@@ -1,0 +1,61 @@
+.typesetting{
+    .box{
+        .the_query {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .conditions_form {
+              display: flex;
+              align-items: center;
+              .form_item {
+                > div {
+                  margin: 0;
+                }
+              }
+            }
+          }
+          .table_item {
+            margin-top: 20px;
+            .paging {
+              padding-top: 20px;
+              text-align: center;
+            }
+          }
+              //   弹框
+      .add_box{
+        .inpu_cross{
+          display: flex;
+          justify-content: space-between;
+          .cascader_on{
+              position: relative;
+              >i{
+                  position: absolute;
+                  cursor: pointer;
+                  right: 2px;
+                  top: 0px;
+                  font-size: 22px;
+                  color: #409EFF;
+              }
+          }
+      }
+      .funcdwewz{
+        display: flex;
+        align-items: flex-start;
+        button{
+          margin-left: 20px;
+        }
+      }
+      }
+          // 考勤组选择
+    .rdudsxvuhgsci{
+      .scsdsxx{
+        display: flex;
+        align-items: center;
+        .btenanniu{
+          margin-left: 20px;
+        }
+      }
+    }
+    }
+}

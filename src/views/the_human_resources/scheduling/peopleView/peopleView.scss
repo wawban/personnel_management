@@ -1,0 +1,64 @@
+.peopleView{
+    .box{
+        .the_query {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .conditions_form {
+              display: flex;
+              align-items: center;
+              .form_item {
+                > div {
+                  margin: 0;
+                }
+              }
+            }
+          }
+          .table_max{
+              overflow: auto;
+              margin-top: 20px;
+              max-height: 80vh;
+              >table{
+                  width: 100%;
+                  min-width: 1420px;
+                .table_max_top{
+                    background: #ccc;
+                    tr{
+                        td{
+                          text-align: center;
+                          padding: 4px 6px;
+                        }
+                    }
+                }
+                .table_max_bottom{
+                  tr{
+                      td{
+                        text-align: center;
+                        padding: 6px 6px;
+                      }
+                  }
+                    .coloer0{
+                        background: rgba(35, 163, 209, 0.568);
+                    }
+                    .coloer1{
+                        background: rgba(50, 194, 50, 0.596);
+                    }
+                    .coloer2{
+                        background: rgba(209, 152, 46, 0.562);
+                    }
+                    .coloer3{
+                      background: rgba(56, 84, 199, 0.63);
+                  }
+                }
+              }
+
+          }
+          .table_max::-webkit-scrollbar{
+              height: 16px;
+          }
+          .table_max::-webkit-scrollbar-thumb {
+            background:#409EFF;
+            }
+    }
+}
