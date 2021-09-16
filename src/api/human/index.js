@@ -14,3 +14,14 @@ export function dept_id(e) {
         method: 'get'
     })
 }
+
+// 新增班次
+export const shift_add = (data) => {
+    return request({
+        url: "/mgr/task-engine-jvs/shift/add",
+        method: 'post',
+        data: data
+    })
+}
+
+
