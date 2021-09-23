@@ -6,6 +6,10 @@ import classView from "@/views/the_human_resources/scheduling/classView";//排�
 import peopleView from "@/views/the_human_resources/scheduling/peopleView";//人力视图
 import statistics from "@/views/the_human_resources/scheduling/statistics";//排班统计
 import exchange from "@/views/the_human_resources/scheduling/exchange";//班次调换
+// import upload from "@/views/the_human_resources/upload";//大数据上传
+
+
+
 
 
 
@@ -52,4 +56,8 @@ export default [
       component: exchange,
     }]
   },
+  // {
+  //   path: "/upload",
+  //   component: upload
+  // },
 ];
